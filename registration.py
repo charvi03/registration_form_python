@@ -37,7 +37,7 @@ class Login:
 
         label2 = Label(frame_input, text="Username", font=("Goudy old style", 20, "bold"),
 
-                       fg='orangered', bg='white')
+                       fg='blue', bg='white')
 
         label2.place(x=30, y=95)
 
@@ -49,7 +49,7 @@ class Login:
 
         label3 = Label(frame_input, text="Password", font=("Goudy old style", 20, "bold"),
 
-                       fg='orangered', bg='white')
+                       fg='blue', bg='white')
 
         label3.place(x=30, y=195)
 
@@ -67,7 +67,7 @@ class Login:
 
         btn2 = Button(frame_input, text="Login", command=self.login, cursor="hand2",
 
-                      font=("times new roman", 15), fg="white", bg="orangered",
+                      font=("times new roman", 15), fg="white", bg="blue",
 
                       bd=0, width=15, height=1)
 
@@ -140,7 +140,7 @@ class Login:
 
         label2 = Label(frame_input2, text="Username", font=("Goudy old style", 20, "bold"),
 
-                       fg='orangered', bg='white')
+                       fg='blue', bg='white')
 
         label2.place(x=30, y=95)
 
@@ -152,7 +152,7 @@ class Login:
 
         label3 = Label(frame_input2, text="Password", font=("Goudy old style", 20, "bold"),
 
-                       fg='orangered', bg='white')
+                       fg='blue', bg='white')
 
         label3.place(x=30, y=195)
 
@@ -164,7 +164,7 @@ class Login:
 
         label4 = Label(frame_input2, text="Email-id", font=("Goudy old style", 20, "bold"),
 
-                       fg='orangered', bg='white')
+                       fg='blue', bg='white')
 
         label4.place(x=330, y=95)
 
@@ -176,7 +176,7 @@ class Login:
 
         label5 = Label(frame_input2, text="Confirm Password",
 
-                       font=("Goudy old style", 20, "bold"), fg='orangered', bg='white')
+                       font=("Goudy old style", 20, "bold"), fg='blue', bg='white')
 
         label5.place(x=330, y=195)
 
@@ -190,7 +190,7 @@ class Login:
 
                       , cursor="hand2", font=("times new roman", 15), fg="white",
 
-                      bg="orangered", bd=0, width=15, height=1)
+                      bg="blue", bd=0, width=15, height=1)
 
         btn2.place(x=90, y=340)
 
@@ -256,7 +256,7 @@ class Login:
 
                     con.close()
 
-                    messagebox.showinfo("Success", "Register Succesfull"
+                    messagebox.showinfo("Success", "Register Successful"
 
                                         , parent=self.root)
 
@@ -284,7 +284,7 @@ class Login:
 
         btn2 = Button(Frame_login, text="Logout", command=self.loginform, cursor="hand2",
 
-                      font=("times new roman", 15), fg="white", bg="orangered",
+                      font=("times new roman", 15), fg="white", bg="blue",
 
                       bd=0, width=15, height=1)
 
